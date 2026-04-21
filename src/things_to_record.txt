@@ -1,0 +1,137 @@
+// Save data to DataExport
+        if (record_data_flag)
+        {
+            if (nloops_rec == 0)
+                printf("R %lg\n", glfwGetTime());
+            if (nloops_rec > SIZE_MAX_DATA_SAMPLES)
+            {
+                printf("DataExport full. Exiting.\n");
+                break;
+            }
+
+            int ptr = 0;
+            // Sim time
+            DataExport[nloops_rec][ptr] = d_sim_for_comm->time;
+            ptr++;
+
+            // Exp time
+            DataExport[nloops_rec][ptr] = d_exp->time;
+            ptr++;
+
+            // Joint angles: desired
+            mju_copy(DataExport[nloops_rec] + ptr, d_sim_for_comm->userdata + ADDR_ROBOT_DESIRED_Q, 12);
+            ptr += 12;
+
+            // Joint angles: sim
+            mju_copy(DataExport[nloops_rec] + ptr, d_sim_for_comm->qpos + 7, 12);
+            ptr += 12;
+
+            // Joint angles: from robot
+            mju_copy(DataExport[nloops_rec] + ptr, readIn_filtered.q, 12);
+            ptr += 12;
+
+            // Joint angles: exp
+            mju_copy(DataExport[nloops_rec] + ptr, d_exp->qpos + 7, 12);
+            ptr += 12;
+
+            // Torso site position: sim
+            mju_copy(DataExport[nloops_rec] + ptr, d_sim_for_comm->site_xpos + 3 * TORSO_SITE, 3);
+            ptr += 3;
+
+            // Torso site position: exp
+            mju_copy(DataExport[nloops_rec] + ptr, d_exp->site_xpos + 3 * TORSO_SITE, 3);
+            ptr += 3;
+
+            // Torso site orientation: sim
+            mju_copy(DataExport[nloops_rec] + ptr, d_sim_for_comm->site_xmat + 9 * TORSO_SITE, 9);
+            ptr += 9;
+
+            // Torso site orientation: exp
+            mju_copy(DataExport[nloops_rec] + ptr, d_exp->site_xmat + 9 * TORSO_SITE, 9);
+            ptr += 9;
+
+            // Left foot site position: sim
+            mju_copy(DataExport[nloops_rec] + ptr, d_sim_for_comm->site_xpos + 3 * LF_SITE, 3);
+            ptr += 3;
+
+            // Left foot site position: exp
+            mju_copy(DataExport[nloops_rec] + ptr, d_exp->site_xpos + 3 * LF_SITE, 3);
+            ptr += 3;
+
+            // Left foot site orientation: sim
+            mju_copy(DataExport[nloops_rec] + ptr, d_sim_for_comm->site_xmat + 9 * LF_SITE, 9);
+            ptr += 9;
+
+            // Left foot site orientation: exp
+            mju_copy(DataExport[nloops_rec] + ptr, d_exp->site_xmat + 9 * LF_SITE, 9);
+            ptr += 9;
+
+            // Right foot site position: sim
+            mju_copy(DataExport[nloops_rec] + ptr, d_sim_for_comm->site_xpos + 3 * RF_SITE, 3);
+            ptr += 3;
+
+            // Right foot site position: exp
+            mju_copy(DataExport[nloops_rec] + ptr, d_exp->site_xpos + 3 * RF_SITE, 3);
+            ptr += 3;
+
+            // Right foot site orientation: sim
+            mju_copy(DataExport[nloops_rec] + ptr, d_sim_for_comm->site_xmat + 9 * RF_SITE, 9);
+            ptr += 9;
+
+            // Right foot site orientation: exp
+            mju_copy(DataExport[nloops_rec] + ptr, d_exp->site_xmat + 9 * RF_SITE, 9);
+            ptr += 9;
+
+            // COP-ZMP: sim
+            // printf("save: %.3f %.3f %.3f\n", mycda_sim_for_comm.gcop[0], mycda_sim_for_comm.gcop[1], mycda_sim_for_comm.gcop[2]);
+            mju_copy(DataExport[nloops_rec] + ptr, mycda_sim_for_comm.gcop, 3);
+            ptr += 3;
+
+            // COP-ZMP: exp
+            mju_copy(DataExport[nloops_rec] + ptr, myexpcda.gCOP, 3);
+            ptr += 3;
+
+            // Increment the recorded loop counter
+            nloops_rec++;
+            data_rec_width = ptr;
+        }
+        
+if (record_data_flag)
+        {
+            if (nloops_rec == 0)
+                printf("R %lg\n", glfwGetTime());
+            if (nloops_rec > SIZE_MAX_DATA_SAMPLES)
+            {
+                printf("DataExport full. Exiting.\n");
+                break;
+            }
+
+            int ptr = 0;
+            // Sim time
+            DataExport[nloops_rec][ptr] = d_sim_for_comm->time;
+            ptr++;
+
+            // Exp time
+            DataExport[nloops_rec][ptr] = d_exp->time;
+            ptr++;
+
+            // COP-ZMP: exp
+            mju_copy(DataExport[nloops_rec] + ptr, myexpcda.gCOP, 3);
+            ptr += 3;
+
+            // IMU acceleration: torso
+            mju_copy(DataExport[nloops_rec] + ptr, readIn_filtered.torso_acc, 3);
+            ptr += 3;
+
+            // IMU acceleration: left foot
+            mju_copy(DataExport[nloops_rec] + ptr, readIn_filtered.lf_acc, 3);
+            ptr += 3;
+
+            // IMU acceleration: right foot
+            mju_copy(DataExport[nloops_rec] + ptr, readIn_filtered.rf_acc, 3);
+            ptr += 3;
+
+            // Increment the recorded loop counter
+            nloops_rec++;
+            data_rec_width = ptr;
+        }        
