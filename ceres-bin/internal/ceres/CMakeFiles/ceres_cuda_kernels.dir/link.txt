@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libceres_cuda_kernels.a CMakeFiles/ceres_cuda_kernels.dir/cuda_kernels_vector_ops.cu.cc.o CMakeFiles/ceres_cuda_kernels.dir/cuda_kernels_bsm_to_crs.cu.cc.o
+/usr/bin/ranlib ../../lib/libceres_cuda_kernels.a

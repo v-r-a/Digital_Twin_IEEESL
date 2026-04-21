@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/venky/mujoco/Digital_twin_2026_project/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/venky/mujoco/Digital_twin_2026_project/mujoco-3.3.7/include -I/home/venky/mujoco/Digital_twin_2026_project/src -I/home/venky/mujoco/Digital_twin_2026_project/simulate -I/usr/include/eigen3 -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-solver-2.2.0/include -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-bin/include -isystem /usr/local/include/eigen3  -O2 -std=c++17 -g -std=gnu++17 -o CMakeFiles/cyber_physical_system.dir/src/cyber_physical_system.cc.o -c /home/venky/mujoco/Digital_twin_2026_project/src/cyber_physical_system.cc",
+  "file": "/home/venky/mujoco/Digital_twin_2026_project/src/cyber_physical_system.cc"
+},
+{
+  "directory": "/home/venky/mujoco/Digital_twin_2026_project/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/venky/mujoco/Digital_twin_2026_project/mujoco-3.3.7/include -I/home/venky/mujoco/Digital_twin_2026_project/src -I/home/venky/mujoco/Digital_twin_2026_project/simulate -I/usr/include/eigen3 -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-solver-2.2.0/include -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-bin/include -isystem /usr/local/include/eigen3  -O2 -std=c++17 -g -std=gnu++17 -o CMakeFiles/cyber_physical_system.dir/src/exp_meas_proc_func.cc.o -c /home/venky/mujoco/Digital_twin_2026_project/src/exp_meas_proc_func.cc",
+  "file": "/home/venky/mujoco/Digital_twin_2026_project/src/exp_meas_proc_func.cc"
+},
+{
+  "directory": "/home/venky/mujoco/Digital_twin_2026_project/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/venky/mujoco/Digital_twin_2026_project/mujoco-3.3.7/include -I/home/venky/mujoco/Digital_twin_2026_project/src -I/home/venky/mujoco/Digital_twin_2026_project/simulate -I/usr/include/eigen3 -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-solver-2.2.0/include -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-bin/include -isystem /usr/local/include/eigen3  -O2 -std=c++17 -g -std=gnu++17 -o CMakeFiles/cyber_physical_system.dir/src/rs485_bus_functions.cc.o -c /home/venky/mujoco/Digital_twin_2026_project/src/rs485_bus_functions.cc",
+  "file": "/home/venky/mujoco/Digital_twin_2026_project/src/rs485_bus_functions.cc"
+},
+{
+  "directory": "/home/venky/mujoco/Digital_twin_2026_project/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/venky/mujoco/Digital_twin_2026_project/mujoco-3.3.7/include -I/home/venky/mujoco/Digital_twin_2026_project/src -I/home/venky/mujoco/Digital_twin_2026_project/simulate -I/usr/include/eigen3 -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-solver-2.2.0/include -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-bin/include -isystem /usr/local/include/eigen3  -O2 -std=c++17 -g -std=gnu++17 -o CMakeFiles/cyber_physical_system.dir/src/my_mjc_func.cc.o -c /home/venky/mujoco/Digital_twin_2026_project/src/my_mjc_func.cc",
+  "file": "/home/venky/mujoco/Digital_twin_2026_project/src/my_mjc_func.cc"
+},
+{
+  "directory": "/home/venky/mujoco/Digital_twin_2026_project/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/venky/mujoco/Digital_twin_2026_project/mujoco-3.3.7/include -I/home/venky/mujoco/Digital_twin_2026_project/src -I/home/venky/mujoco/Digital_twin_2026_project/simulate -I/usr/include/eigen3 -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-solver-2.2.0/include -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-bin/include -isystem /usr/local/include/eigen3  -O2 -std=c++17 -g -std=gnu++17 -o CMakeFiles/cyber_physical_system.dir/src/read_write_data_func.cc.o -c /home/venky/mujoco/Digital_twin_2026_project/src/read_write_data_func.cc",
+  "file": "/home/venky/mujoco/Digital_twin_2026_project/src/read_write_data_func.cc"
+},
+{
+  "directory": "/home/venky/mujoco/Digital_twin_2026_project/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/venky/mujoco/Digital_twin_2026_project/mujoco-3.3.7/include -I/home/venky/mujoco/Digital_twin_2026_project/simulate -I/usr/include/eigen3 -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-solver-2.2.0/include -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-bin/include -isystem /usr/local/include/eigen3  -O2 -std=c++17 -g -std=gnu++17 -o CMakeFiles/simulate.dir/simulate_bioloid_setptctrl/main.cc.o -c /home/venky/mujoco/Digital_twin_2026_project/simulate_bioloid_setptctrl/main.cc",
+  "file": "/home/venky/mujoco/Digital_twin_2026_project/simulate_bioloid_setptctrl/main.cc"
+},
+{
+  "directory": "/home/venky/mujoco/Digital_twin_2026_project/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/venky/mujoco/Digital_twin_2026_project/mujoco-3.3.7/include -I/home/venky/mujoco/Digital_twin_2026_project/simulate -I/usr/include/eigen3 -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-solver-2.2.0/include -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-bin/include -isystem /usr/local/include/eigen3  -O2 -std=c++17 -g -std=gnu++17 -o CMakeFiles/simulate.dir/simulate_bioloid_setptctrl/simulate.cc.o -c /home/venky/mujoco/Digital_twin_2026_project/simulate_bioloid_setptctrl/simulate.cc",
+  "file": "/home/venky/mujoco/Digital_twin_2026_project/simulate_bioloid_setptctrl/simulate.cc"
+},
+{
+  "directory": "/home/venky/mujoco/Digital_twin_2026_project/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/venky/mujoco/Digital_twin_2026_project/mujoco-3.3.7/include -I/home/venky/mujoco/Digital_twin_2026_project/simulate -I/usr/include/eigen3 -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-solver-2.2.0/include -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-bin/include -isystem /usr/local/include/eigen3  -O2 -std=c++17 -g -std=gnu++17 -o CMakeFiles/simulate.dir/simulate_bioloid_setptctrl/glfw_adapter.cc.o -c /home/venky/mujoco/Digital_twin_2026_project/simulate_bioloid_setptctrl/glfw_adapter.cc",
+  "file": "/home/venky/mujoco/Digital_twin_2026_project/simulate_bioloid_setptctrl/glfw_adapter.cc"
+},
+{
+  "directory": "/home/venky/mujoco/Digital_twin_2026_project/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/venky/mujoco/Digital_twin_2026_project/mujoco-3.3.7/include -I/home/venky/mujoco/Digital_twin_2026_project/simulate -I/usr/include/eigen3 -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-solver-2.2.0/include -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-bin/include -isystem /usr/local/include/eigen3  -O2 -std=c++17 -g -std=gnu++17 -o CMakeFiles/simulate.dir/simulate_bioloid_setptctrl/glfw_dispatch.cc.o -c /home/venky/mujoco/Digital_twin_2026_project/simulate_bioloid_setptctrl/glfw_dispatch.cc",
+  "file": "/home/venky/mujoco/Digital_twin_2026_project/simulate_bioloid_setptctrl/glfw_dispatch.cc"
+},
+{
+  "directory": "/home/venky/mujoco/Digital_twin_2026_project/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/venky/mujoco/Digital_twin_2026_project/mujoco-3.3.7/include -I/home/venky/mujoco/Digital_twin_2026_project/simulate -I/usr/include/eigen3 -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-solver-2.2.0/include -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-bin/include -isystem /usr/local/include/eigen3  -O2 -std=c++17 -g -std=gnu++17 -o CMakeFiles/simulate.dir/simulate_bioloid_setptctrl/platform_ui_adapter.cc.o -c /home/venky/mujoco/Digital_twin_2026_project/simulate_bioloid_setptctrl/platform_ui_adapter.cc",
+  "file": "/home/venky/mujoco/Digital_twin_2026_project/simulate_bioloid_setptctrl/platform_ui_adapter.cc"
+},
+{
+  "directory": "/home/venky/mujoco/Digital_twin_2026_project/build",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/venky/mujoco/Digital_twin_2026_project/mujoco-3.3.7/include -I/home/venky/mujoco/Digital_twin_2026_project/simulate -I/usr/include/eigen3 -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-solver-2.2.0/include -isystem /home/venky/mujoco/Digital_twin_2026_project/ceres-bin/include -isystem /usr/local/include/eigen3  -O2 -std=c++17 -g -std=gnu++17 -o CMakeFiles/simulate.dir/simulate_bioloid_setptctrl/lodepng.cpp.o -c /home/venky/mujoco/Digital_twin_2026_project/simulate_bioloid_setptctrl/lodepng.cpp",
+  "file": "/home/venky/mujoco/Digital_twin_2026_project/simulate_bioloid_setptctrl/lodepng.cpp"
+}
+]

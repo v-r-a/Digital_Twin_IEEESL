@@ -1,0 +1,4 @@
+/home/venky/mujoco/Digital_twin_2026_project/build/CMakeFiles/cyber_physical_system.dir
+/home/venky/mujoco/Digital_twin_2026_project/build/CMakeFiles/simulate.dir
+/home/venky/mujoco/Digital_twin_2026_project/build/CMakeFiles/edit_cache.dir
+/home/venky/mujoco/Digital_twin_2026_project/build/CMakeFiles/rebuild_cache.dir
