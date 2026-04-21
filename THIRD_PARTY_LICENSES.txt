@@ -1,0 +1,56 @@
+THIRD-PARTY SOFTWARE LICENSES
+=============================
+
+This repository includes third-party software components which are
+licensed under their respective terms. These components are NOT covered
+by the MIT license of this repository.
+
+------------------------------------------------------------
+1. MuJoCo
+------------------------------------------------------------
+
+MuJoCo (Multi-Joint dynamics with Contact) is developed by DeepMind.
+
+License:
+MuJoCo is distributed under a permissive license similar to Apache 2.0.
+
+Copyright notices and license terms must be preserved.
+
+Relevant conditions:
+- Retain original copyright notices
+- Retain license text
+- Do not misrepresent authorship
+
+Full license text should be included in the original MuJoCo distribution.
+
+------------------------------------------------------------
+2. Ceres Solver
+------------------------------------------------------------
+
+Ceres Solver is developed by Google.
+
+License:
+BSD 3-Clause License
+
+Copyright (c) Google Inc.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
+
+------------------------------------------------------------
+END OF THIRD-PARTY NOTICES
+------------------------------------------------------------
